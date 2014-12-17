@@ -11,6 +11,8 @@
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
+\usepackage[pdftex]{graphicx}     
+\usepackage{hyperref}
 
 \usepackage{sectsty} % Enables custom section titles
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
@@ -89,7 +91,7 @@ Module Evolutionary Game Theory WS 2014/15 % Your institution
 modelling of nature for forecasting, understanding, estimating  \
 get old paradigm of the behaviour in HD right - paradigm shift to the new paradigm that HD players could act in a way not known until now
 
-
+super important for theoretical ecology
 \begin{align}
 A = 
 \begin{bmatrix}
@@ -99,6 +101,9 @@ A_{21} & A_{22}
 \end{align}
 
 Looking at evolutionary game structures, the pay-off is crucial to determine each players fitness and the fitness of a whole group. 
+
+Spatial structure added to the game results in a population, where its individuals occupy patches on a spatial lattice (here two dimensional). 
+Each tick (update) will be done by letting individuals play against their nearest neighbours. The resulting pay-offs will be used to decide upon the focal patch's future occupant. It could be an offspring of the last occupant resisting the invasion or from a neighbour spreading its strategy. The lattice is updated and the evolutionary process takes place with every update.
 
 
 %------------------------------------------------
@@ -124,7 +129,27 @@ Payoff to D & $b$ & $0$ \\
 \end{tabular}
 \end{table}
 
+Spatial PD: 
+Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Cooperators stay on forming large compact clusters thus reducing the exploitation by defectors.
 
+\begin{figure}[here]
+\centering
+\begin{minipage}{.35\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{PDspatial8cost01}
+ \caption{}{Clustering}
+\label{fig:PDspatialcluster}
+\end{minipage}%
+\end{figure}
+
+\begin{figure}
+\begin{minipage}{.48\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{PDspatial}
+ \caption{}{Frequency of cooperators against c-b-ratio}
+  \label{fig:PDspatialfreq}
+\end{minipage}
+\end{figure}
 %------------------------------------------------
 
 \subsection*{Snowdrift game}
@@ -150,6 +175,18 @@ Payoff to D & $b$ & $0$ \\
 \end{tabular}
 \end{table}
 
+Spatial structure in snowdrift: 
+In comparison to the spatial structure  of the Prisoner's Dilemma's resulting cooperation lattice, the cooperators form only small filament-like clusters in the snowdrift game. The defectors have via the isolated cooperators structure the advantage to exploit fitness and break in those fragile clusters.
+
+\begin{figure}[here]
+\centering
+\begin{minipage}{.35\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{HDspatial8cost01}
+ \caption{}{Clustering}
+\label{fig:PDspatialcluster}
+\end{minipage}%
+\end{figure}
 %------------------------------------------------
 
 \section*{task 1}

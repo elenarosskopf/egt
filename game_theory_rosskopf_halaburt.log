@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  17 DEC 2014 11:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  17 DEC 2014 13:02
 entering extended mode
 **game_theory_rosskopf_halaburt.tex
-(C:\Users\Elena\Desktop\EGT\final\game_theory_rosskopf_halaburt.tex
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -306,31 +306,22 @@ Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
-Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
-les
-)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-Class scrartcl Warning: Usage of package `fancyhdr' together
-(scrartcl)              with a KOMA-Script class is not recommended.
-(scrartcl)              I'd suggest to use 
-(scrartcl)              package `scrpage2' or `scrlayer-scrpage'.
-(scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 19.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-\fancy@headwidth=\skip55
-\f@ncyO@elh=\skip56
-\f@ncyO@erh=\skip57
-\f@ncyO@olh=\skip58
-\f@ncyO@orh=\skip59
-\f@ncyO@elf=\skip60
-\f@ncyO@erf=\skip61
-\f@ncyO@olf=\skip62
-\f@ncyO@orf=\skip63
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -389,7 +380,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen134
+\@linkdim=\dimen136
 \Hy@linkcounter=\count109
 \Hy@pagecounter=\count110
 
@@ -415,10 +406,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen135
+\XeTeXLinkMargin=\dimen137
 \Fld@menulength=\count113
-\Field@Width=\dimen136
-\Fld@charsize=\dimen137
+\Field@Width=\dimen138
+\Fld@charsize=\dimen139
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -445,30 +436,56 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip55
+)
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+
+Class scrartcl Warning: Usage of package `fancyhdr' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use 
+(scrartcl)              package `scrpage2' or `scrlayer-scrpage'.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `fancyhdr' on input line 21.
+
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip56
+\f@ncyO@elh=\skip57
+\f@ncyO@erh=\skip58
+\f@ncyO@olh=\skip59
+\f@ncyO@orh=\skip60
+\f@ncyO@elf=\skip61
+\f@ncyO@erf=\skip62
+\f@ncyO@olf=\skip63
+\f@ncyO@orf=\skip64
+)
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.sty
 File: lettrine.sty 2014/09/16 v1.70 (Daniel Flipo)
 \c@DefaultLines=\count119
 \c@DefaultDepth=\count120
-\DefaultFindent=\dimen138
-\DefaultNindent=\dimen139
-\DefaultSlope=\dimen140
+\DefaultFindent=\dimen140
+\DefaultNindent=\dimen141
+\DefaultSlope=\dimen142
 \L@lbox=\box29
 \L@tbox=\box30
 \c@L@lines=\count121
 \c@L@depth=\count122
-\L@Pindent=\dimen141
-\L@Findent=\dimen142
-\L@Nindent=\dimen143
-\L@lraise=\dimen144
-\L@first=\dimen145
-\L@next=\dimen146
-\L@slope=\dimen147
-\L@height=\dimen148
-\LettrineWidth=\dimen149
-\LettrineHeight=\dimen150
-\LettrineDepth=\dimen151
+\L@Pindent=\dimen143
+\L@Findent=\dimen144
+\L@Nindent=\dimen145
+\L@lraise=\dimen146
+\L@first=\dimen147
+\L@next=\dimen148
+\L@slope=\dimen149
+\L@height=\dimen150
+\LettrineWidth=\dimen151
+\LettrineHeight=\dimen152
+\LettrineDepth=\dimen153
 
 Loading lettrine.cfg
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.cfg))
@@ -478,24 +495,28 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip66
 \droptitle=\skip67
 )
-(C:\Users\Elena\Desktop\EGT\final\game_theory_rosskopf_halaburt.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Info: Redefining \microtypecontext on input line 69.
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.aux
+
+LaTeX Warning: Label `fig:PDspatialcluster' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 71.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -505,21 +526,20 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+ (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
-\scratchdimen=\dimen152
+\scratchdimen=\dimen154
 \scratchbox=\box31
 \nofMPsegments=\count124
 \nofMParguments=\count125
 \everyMPshowfont=\toks27
 \MPscratchCnt=\count126
-\MPscratchDim=\dimen153
+\MPscratchDim=\dimen155
 \MPnumerator=\count127
 \makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks28
@@ -527,15 +547,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 69.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 69.
+Package hyperref Info: Link coloring OFF on input line 71.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -544,14 +557,21 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
-(C:\Users\Elena\Desktop\EGT\final\game_theory_rosskopf_halaburt.out)
-(C:\Users\Elena\Desktop\EGT\final\game_theory_rosskopf_halaburt.out)
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.out)
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.out)
 \@outlinefile=\write3
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 71.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 73.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -564,7 +584,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -572,7 +592,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -584,27 +604,55 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
 
+<PDspatial8cost01.png, id=4, 301.125pt x 301.125pt>
+File: PDspatial8cost01.png Graphic file (type png)
+ <use PDspatial8cost01.png>
+Package pdftex.def Info: PDspatial8cost01.png used on input line 139.
+(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+<PDspatial.pdf, id=6, 597.23125pt x 420.57124pt>
+File: PDspatial.pdf Graphic file (type pdf)
+ <use PDspatial.pdf>
+Package pdftex.def Info: PDspatial.pdf used on input line 148.
+(pdftex.def)             Requested size: 241.51685pt x 170.07372pt.
+ [1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 
-LaTeX Warning: Citation `Albizu2013' undefined on input line 180.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-No file game_theory_rosskopf_halaburt.bbl.
+<HDspatial8cost01.png, id=34, 301.125pt x 301.125pt>
+File: HDspatial8cost01.png Graphic file (type png)
 
+<use HDspatial8cost01.png>
+Package pdftex.def Info: HDspatial8cost01.png used on input line 185.
+(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
+
+
+LaTeX Warning: Citation `Albizu2013' undefined on input line 217.
+
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+) 
 AED: lastpage setting LastPage
-[2
+[2 <C:/Users/Elena/Documents/GitHub/egt/PDspatial8cost01.png> <C:/Users/Elena/D
+ocuments/GitHub/egt/PDspatial.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDspati
+al8cost01.png>] [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
- (C:\Users\Elena\Desktop\EGT\final\game_theory_rosskopf_halaburt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+
+(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `game_theory_rosskopf_halaburt.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -613,18 +661,18 @@ hanged.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 11169 strings out of 493921
- 177114 string characters out of 3144875
- 346206 words of memory out of 3000000
- 14252 multiletter control sequences out of 15000+200000
- 23820 words of font info for 85 fonts, out of 3000000 for 9000
+ 11374 strings out of 493921
+ 180334 string characters out of 3144875
+ 349649 words of memory out of 3000000
+ 14429 multiletter control sequences out of 15000+200000
+ 23973 words of font info for 88 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,14n,47p,743b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,47p,743b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
@@ -640,9 +688,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
 onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on game_theory_rosskopf_halaburt.pdf (2 pages, 145190 bytes).
+Output written on game_theory_rosskopf_halaburt.pdf (3 pages, 160415 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 25601 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 25616 words of extra memory for PDF output out of 29859 (max. 10000000)
 
