@@ -145,7 +145,7 @@ Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Coop
 \begin{minipage}{.35\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{PDspatial8cost01}
- \caption{}{Clustering}
+ \caption{Clustering}
 \label{fig:PDspatialcluster}
 \end{minipage}%
 \end{figure}
@@ -154,7 +154,7 @@ Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Coop
 \begin{minipage}{.48\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{PDspatial}
- \caption{}{Frequency of cooperators against c-b-ratio}
+ \caption{Frequency of cooperators against c-b-ratio}
   \label{fig:PDspatialfreq}
 \end{minipage}
 \end{figure}
@@ -186,18 +186,32 @@ Payoff to D & $b$ & $0$ \\
 Spatial structure in snowdrift: 
 In comparison to the spatial structure  of the Prisoner's Dilemma's resulting cooperation lattice, the cooperators form only small filament-like clusters in the snowdrift game. The defectors have via the isolated cooperators structure the advantage to exploit fitness and break in those fragile clusters.
 
+Spatial HD ideas: 
+	Individuals occupy sites on a regular lattice
+	Next tick: present occupant + nearest neighbours compete to populate this site with their offspring
+	Competitive success: depends on differences between payoffs that each pot. Parent obtains from game interactions with nearest neighbors
+	Next tick/update done synchronously, pop. With descrete, non-overlapping generation
+	Or asynchron with overlapping generations 
+	Spatial structure fails to enhance coop
+ 	And reduces proportion of coop in spatial pop. 
+Small ratio: high benefits, low cost: proportion of coop higher than $1-r$ expected in well-mixed pop.
+Large ratio: defectors, depend on lattice geometry: the higher the neighbors the heigher the D
+Sufficiently high r: coop is lost 
+Coop vanish near r where $ 1/N > 1- r$
+
+
 \begin{figure}[here]
 \centering
 \begin{minipage}{.35\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{HDspatial8cost01}
- \caption{}{Clustering}
+ \caption{Clustering}
 \label{fig:PDspatialcluster}
 \end{minipage}%
 \end{figure}
 %------------------------------------------------
 
-\section*{task 1}
+\section*{task 1 the experiments}
 
 
 \begin{description}
@@ -205,13 +219,15 @@ In comparison to the spatial structure  of the Prisoner's Dilemma's resulting co
 \item[Last] explanation of experiments
 \end{description}
 
-\section*{task 2}
-different plots like in the paper from hauert with the frequency of coop against cb ratio \
-explanation of differences \
-explanation of HD special case
+\section*{task 2 the neighbourhood problem}
 
+We choose 3 different types of neighbourhoods to be experimented on. The first one is the Moore neighbourhood with the default value of N=8 neighbours. The neighbours surround the focal patch in 8 directions. The second neighbourhood is the Von Neumann neighbourhood with the default value of N=4 neighbours which are orthogonally surrounding the focal patch on a two dimensional square lattice. The last type of neighbourhood introduces a parameter instead of a defined neighbourhood, having the attribute of a radius equal or less than 3 patches. \\
+To increase the certainty of our results, the behaviour space model is used to compare different cooperation frequencies against the ratio of cost and benefit within different neighbourhood features and between the snowdrift game and the prisoners dilemma game. \\
+The mutual cooperation ratio in the snowdrift game is calculated as $r = c / (2b-c)$ , cost to benefit ratio. The mutual cooperation ratio in the Prisoner's Dilemma is calculated as $r = c/ (b-c) $.\
 
 \section*{task 3}
+
+
 
 \section*{discussion}
 
@@ -220,7 +236,44 @@ differ our results with their results?
 
 where can we give in more time, where are options to prolong this topic? relation to nature, where is the importance here ? 
 
-bibiography: this paper should be enough though :D 
+Discussion: 
+Paper: http://iopscience.iop.org/0253-6102/57/4/04
+Not included the noise, like in this paper  - could it make even more realistic but heavier to implement
+Our study more straighforward to understand the snowdrift game and the players evolution better
+Afterwards you could add those noise to our model to make it more exact
+
+"Some analytical results have been obtained using geometrical arguments about cluster formation (Nowak & May 1992; Killingback et al. 1999; Hauert 2001), and Schweitzer et al. (2002) recently gave a classification of the dynamic regimes in the spatial PD."
+
+http://www.math.pitt.edu/~bard/classes/mth3380/spatialgame.pdf
+
+\begin{figure}[here]
+\centering
+\begin{minipage}{.40\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{HDm1}
+ \caption{N=8}
+\label{fig:HDm1}
+\end{minipage}%
+
+\begin{minipage}{.40\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{HDn1}
+ \caption{N=4}
+\label{fig:HDn1}
+\end{minipage}%
+
+\begin{minipage}{.40\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{HDm3}
+ \caption{N=3}
+\label{fig:HDm3}
+\end{minipage}%
+\end{figure}
+%------------------------------------------------
+
+
+
+bibiography: 
 
 \nocite{Albizu2013}
 %----------------------------------------------------------------------------------------
