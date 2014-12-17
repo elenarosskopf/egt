@@ -18,6 +18,7 @@
 \usepackage{fancyhdr} % Needed to define custom headers/footers
 \pagestyle{fancy} % Enables the custom headers/footers
 \usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
+\usepackage{hyperref}
 
 % Headers - all currently empty
 \lhead{}
@@ -97,36 +98,54 @@ A_{21} & A_{22}
 \end{bmatrix}
 \end{align}
 
+Looking at evolutionary game structures, the pay-off is crucial to determine each players fitness and the fitness of a whole group. 
 
 
 %------------------------------------------------
 
 \subsection*{Prisoners Dilemma}
 
-all works fine here
-explain payoff matrix
-explain spatial structure and subsequent change in behaviour
+Explanation of PD in general:
+The cooperators get exploited by defectors, subsequently defectors are naturally selected. The cost to the donor of fitness(pay-off?) is always higher than zero, but generally lower the benefit to the receiver of the pay-off ( b > c > 0 ). The defector‘s pay-off is the highest pay-off b if the other player is cooperating. The lowest pay-off, namely only the cost, has then (-c) the cooperator which is defected in the unilateral cooperation. Finally it is best to defect regardless of other players decision. Mutual defections result then in pay-off zero for both players, not reducing the fitness but also not increasing it (see \ref{table1}). Here, the defector strategy is the ESS. 
+
+\begin{table}[h]
+\caption{Prisoner's Dilemma}
+\label{table1}
+\centering
+\begin{tabular}{lll}
+%\toprule
+%\multicolumn{2}{c}{Name} \\
+%\cmidrule(r){1-2}
+ & C & D \\
+\midrule
+Payoff to C & $b-c$ & $-c$ \\
+Payoff to D & $b$ & $0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 
 %------------------------------------------------
 
-\subsection*{Hawk Dove}
+\subsection*{Snowdrift game}
 
-problem with the reverse P, S payoffs and possibilities here
-explain difference to PD
-explain pay-off matrix
+In general: \\
+At the snowdrift game we have the difference to Prisoners Dilemma. The players can share the benefit and the cost, depending on their strategies. Another feature in this game is, that if one defects, the pay-off could be less than the sucker's pay-off of the unilateral cooperator. Still defecting if the other player cooperates is, according to the matrix, the best response choice. As one can see in table \ref{table2}, the pay-off matrix is slightly different than the one of Prisoners Dilemma in table \ref{table1}. 
+If $2b > c > b > 0$, meaning that if costs are high, these pay-off structures change the game to a PD and affect the reverse pay-off structure. If $b > c > 0$ , the best action depends on co-players action resulting in a mixed strategy population, where rare strategies can invade, either defector or cooperator with an ESS at cooperator proportion is $1- c/(2b-c)$. 
 
 
-\begin{table}
-\caption{Random table}
+\begin{table}[h]
+\caption{Snowdrift game}
+\label{table2}
 \centering
-\begin{tabular}{llr}
-\toprule
-\multicolumn{2}{c}{Name} \\
-\cmidrule(r){1-2}
-First name & Last Name & Grade \\
+\begin{tabular}{lll}
+%\toprule
+%\multicolumn{2}{c}{Name} \\
+%\cmidrule(r){1-2}
+ & C & D \\
 \midrule
-John & Doe & $7.5$ \\
-Richard & Miles & $2$ \\
+Payoff to C & $b-c/2$ & $b-c$ \\
+Payoff to D & $b$ & $0$ \\
 \bottomrule
 \end{tabular}
 \end{table}
