@@ -105,9 +105,6 @@ Looking at evolutionary game structures, the pay-off is crucial to determine eac
 Spatial structure added to the game results in a population, where its individuals occupy patches on a spatial lattice (here two dimensional). 
 Each tick (update) will be done by letting individuals play against their nearest neighbours. The resulting pay-offs will be used to decide upon the focal patch's future occupant. It could be an offspring of the last occupant resisting the invasion or from a neighbour spreading its strategy. The lattice is updated and the evolutionary process takes place with every update.
 
-\section{Methods}
-
-
 
 \subsection*{Prisoners Dilemma}
 
@@ -179,21 +176,13 @@ Payoff to D & $b$ & $0$ \\
 \end{table}
 
 Spatial structure in snowdrift: 
-In comparison to the spatial structure  of the Prisoner's Dilemma's resulting cooperation lattice, the cooperators form only small filament-like clusters in the snowdrift game. The defectors have via the isolated cooperators structure the advantage to exploit fitness and break in those fragile clusters.
+In comparison to the spatial structure  of the Prisoner's Dilemma's resulting cooperation lattice, the cooperators form only small filament-like clusters in the snowdrift game. The defectors have via the isolated cooperators structure the advantage to exploit them and break in those fragile clusters. 
 
-Spatial HD ideas: 
-	Individuals occupy sites on a regular lattice
-	Next tick: present occupant + nearest neighbours compete to populate this site with their offspring
-	Competitive success: depends on differences between payoffs that each pot. Parent obtains from game interactions with nearest neighbors
-	Next tick/update done synchronously, pop. With descrete, non-overlapping generation
-	-Spatial structure fails to enhance coop
- 	-And reduces proportion of coop in spatial pop.
- 	Cooperation is lower in structured population than in well-mixed populations. (difference to PD) 
-for moderate c-b-ratios: spatial structure results in less cooperators than in well-mixed non spatial SD  
-Small ratio: high benefits, low cost: proportion of coop higher than $1-r$ expected in well-mixed pop.
-Large ratio: defectors, depend on lattice geometry: the higher the neighbors the heigher the D
-Sufficiently high r: coop is lost 
-Coop vanish near r where $ 1/N > 1- r$
+The individuals occupy patches on a regular lattice. The next update is done by populating this patch with the offspring. Which offspring depends on the game result of the present occupant and its nearest neighbour competing for the site. The competitive success depends therefore on the different pay-off that each player and possible parent gains from game interactions. 
+
+But after several updates spatial structure seems to fail to enhance cooperation in the snowdrift game. In moderate c-b-ratios, cooperation is actually proportionally lower than in non-spatial populations, what is a difference to the behaviour of players in spatial PD. 
+
+A small ratio, meaning high benefits with low costs can increase the proportion of cooperation compared to non-spatial populations. The frequency is higher than the $1-r$ expected frequency in well-mixed populations. If the costs are increasing and the c-b-ratio is high, the defectors proportion increase, depending on lattice geometry. Cooperation is lost if sufficiently high ratio and disappears when the ratio is $1/N > 1- r$, which you can see in the next chapter as different N ( neighbourhood structures) are applied. 
 
 clusters small because of the different pay off matrix
 develop  strategy contrary to the neighbour ones 
@@ -272,7 +261,14 @@ very contrary effect on cooperation
 
 \section*{task 3 the mixed strategy}
 
-
+\begin{figure}[here]
+%\begin{minipage}{.48\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{task3}
+ \caption{Resulting evolution in a mixed strategy snowdrift game}
+\label{fig:task3}
+%\end{minipage}%
+\end{figure}
 
 \subsection*{The Algebra of the Nash Equilibrium}
 
@@ -331,9 +327,6 @@ The resulting $\sigma$ is $0.60$.
 
 \section*{discussion}
 
-maybe discuss difference to the hauert paper? 
-differ our results with their results? 
-
 where can we give in more time, where are options to prolong this topic? relation to nature, where is the importance here ? 
 
 Discussion: 
@@ -359,13 +352,20 @@ all experiments are very theoretically and neglecting a lot of ecological dynami
 missing input of empirical studies, raw data
 
 
+\section*{Appendix - the plausibility verification}
 
+\noindent We were determining whether 500 steps are sufficient for reaching a rather stable state with the two-sided t-test and the F-test to compare two variances of the different final proportions of cooperators (the final proportion and the proportion of cooperators after 500 updates). 
 
-%------------------------------------------------
+\begin{tabular}{l|ll}
+\centering
+  & p-value & NULL hyp \\
+\midrule
+F-Test & $>0.05$ & $accepted$ \\
+t-test & $>0.05$ & $accepted$ \\
+\end{tabular}
 
+\noindent Also we tested whether the initial proportion of defectors has some impact on the final cooperation proportion with a starting value of 0.4 and 0.6. The tests confirmed the NULL hypotheses that variances are the same and there is no difference in means between the two possible initial defector proportions. So we can assume that if cost and benefit structures are given, the stable distribution of the final cooperation proportion is evolving. 
 
-
-bibiography: 
 
 \nocite{Albizu2013}
 %----------------------------------------------------------------------------------------

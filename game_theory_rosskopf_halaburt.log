@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  19 DEC 2014 01:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  19 DEC 2014 16:52
 entering extended mode
 **game_theory_rosskopf_halaburt.tex
 (C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.tex
@@ -590,7 +590,7 @@ Package microtype Info: Loading generic settings for font family
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -598,7 +598,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -606,77 +606,85 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-[1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-<PDspatial8cost01.png, id=31, 301.125pt x 301.125pt>
+<PDspatial8cost01.png, id=5, 301.125pt x 301.125pt>
 File: PDspatial8cost01.png Graphic file (type png)
-
-<use PDspatial8cost01.png>
-Package pdftex.def Info: PDspatial8cost01.png used on input line 142.
-(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
-
-<spatialPDratio.pdf, id=33, 420.57124pt x 298.11375pt>
-File: spatialPDratio.pdf Graphic file (type pdf)
-
-<use spatialPDratio.pdf>
-Package pdftex.def Info: spatialPDratio.pdf used on input line 151.
-(pdftex.def)             Requested size: 241.51685pt x 171.19572pt.
- <HDspatial8cost01.png, id=36, 301.125pt x 301.125pt>
-File: HDspatial8cost01.png Graphic file (type png)
-
-<use HDspatial8cost01.png>
-Package pdftex.def Info: HDspatial8cost01.png used on input line 209.
+ <use PDspatial8cost01.png>
+Package pdftex.def Info: PDspatial8cost01.png used on input line 139.
 (pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<spatialPDratio.pdf, id=7, 420.57124pt x 298.11375pt>
+File: spatialPDratio.pdf Graphic file (type pdf)
+ <use spatialPDratio.pdf>
+Package pdftex.def Info: spatialPDratio.pdf used on input line 148.
+(pdftex.def)             Requested size: 241.51685pt x 171.19572pt.
 
-Underfull \vbox (badness 3449) has occurred while \output is active []
+[1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- [2 <C:/Users/Elena/Documents/GitHub/egt/PDspatial8cost01.png> <C:/Users/Elena/
-Documents/GitHub/egt/spatialPDratio.pdf>]
-<task1prop.pdf, id=52, 420.57124pt x 298.11375pt>
+
+]
+<HDspatial8cost01.png, id=32, 301.125pt x 301.125pt>
+File: HDspatial8cost01.png Graphic file (type png)
+
+<use HDspatial8cost01.png>
+Package pdftex.def Info: HDspatial8cost01.png used on input line 198.
+(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <C:/Users/Elena/Documents/GitHub/egt/PDspatial8cost01.png> <C:/Users/Elena/D
+ocuments/GitHub/egt/spatialPDratio.pdf>]
+<task1prop.pdf, id=48, 420.57124pt x 298.11375pt>
 File: task1prop.pdf Graphic file (type pdf)
  <use task1prop.pdf>
-Package pdftex.def Info: task1prop.pdf used on input line 226.
+Package pdftex.def Info: task1prop.pdf used on input line 215.
 (pdftex.def)             Requested size: 241.51685pt x 171.19572pt.
 
 
-LaTeX Warning: Reference `PDn843' on page 3 undefined on input line 239.
+LaTeX Warning: Reference `PDn843' on page 3 undefined on input line 228.
 
-<HDm1.pdf, id=53, 597.23125pt x 420.57124pt>
+<HDm1.pdf, id=49, 597.23125pt x 420.57124pt>
 File: HDm1.pdf Graphic file (type pdf)
  <use HDm1.pdf>
-Package pdftex.def Info: HDm1.pdf used on input line 253.
+Package pdftex.def Info: HDm1.pdf used on input line 242.
 (pdftex.def)             Requested size: 201.26276pt x 141.7281pt.
 
-<HDn1.pdf, id=54, 597.23125pt x 420.57124pt>
+<HDn1.pdf, id=50, 597.23125pt x 420.57124pt>
 File: HDn1.pdf Graphic file (type pdf)
  <use HDn1.pdf>
-Package pdftex.def Info: HDn1.pdf used on input line 260.
+Package pdftex.def Info: HDn1.pdf used on input line 249.
 (pdftex.def)             Requested size: 201.26276pt x 141.7281pt.
 
-<HDm3.pdf, id=55, 597.23125pt x 420.57124pt>
+<HDm3.pdf, id=51, 597.23125pt x 420.57124pt>
 File: HDm3.pdf Graphic file (type pdf)
  <use HDm3.pdf>
-Package pdftex.def Info: HDm3.pdf used on input line 267.
+Package pdftex.def Info: HDm3.pdf used on input line 256.
 (pdftex.def)             Requested size: 201.26276pt x 141.7281pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<task3.pdf, id=52, 420.57124pt x 298.11375pt>
+File: task3.pdf Graphic file (type pdf)
+ <use task3.pdf>
+Package pdftex.def Info: task3.pdf used on input line 267.
+(pdftex.def)             Requested size: 246.58229pt x 174.78476pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <C:/Users/Elena/Documents/GitHub/egt/HDspatial8cost01.png> <C:/Users/Elena/D
-ocuments/GitHub/egt/task1prop.pdf>]
-Overfull \hbox (78.85886pt too wide) in paragraph at lines 347--348
+ocuments/GitHub/egt/task1prop.pdf>] [4 <C:/Users/Elena/Documents/GitHub/egt/HDm
+1.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDn1.pdf> <C:/Users/Elena/Documents
+/GitHub/egt/HDm3.pdf> <C:/Users/Elena/Documents/GitHub/egt/task3.pdf>]
+Overfull \hbox (78.85886pt too wide) in paragraph at lines 340--341
 []\OT1/cmr/m/n/10.95 (-20) http://www.math.pitt.edu/ bard/classes/mth3380/spati
 algame.pdf 
  []
 
-[4 <C:/Users/Elena/Documents/GitHub/egt/HDm1.pdf> <C:/Users/Elena/Documents/Git
-Hub/egt/HDn1.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDm3.pdf>]
 
 LaTeX Warning: Citation `Albizu2013' undefined on input line 370.
 
@@ -697,7 +705,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `game_theory_rosskopf_halaburt.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: FE6952C6DE58F9191E3B8D39FECC102B;43.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
@@ -708,13 +716,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 11436 strings out of 493921
- 180893 string characters out of 3144875
- 350858 words of memory out of 3000000
- 14447 multiletter control sequences out of 15000+200000
- 24264 words of font info for 104 fonts, out of 3000000 for 9000
+ 11445 strings out of 493921
+ 181004 string characters out of 3144875
+ 350944 words of memory out of 3000000
+ 14450 multiletter control sequences out of 15000+200000
+ 24423 words of font info for 106 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,11n,47p,769b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,47p,769b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
@@ -728,9 +736,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
 9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/helvetic/uhvro8a.pfb>
-Output written on game_theory_rosskopf_halaburt.pdf (5 pages, 197423 bytes).
+Output written on game_theory_rosskopf_halaburt.pdf (5 pages, 511171 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 23084 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 23081 words of extra memory for PDF output out of 24883 (max. 10000000)
 
