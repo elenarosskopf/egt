@@ -10,9 +10,10 @@ data$freq_c <- data$count.patches.with..strategy_current....C......count.patches
 agg <-aggregate(data, by=list(data$r), FUN=mean, na.rm=TRUE)
 data$expr <- (1 - data$r)
 
+#main= "Frequency of Cooperators in spatial PD along the cost-benefet ratio"
 
 plot(data$r, data$freq_c, las=1,pch=18, xlim=c(0,1),ylim=c(0,1),col="red", 
-     main= "Frequency of Cooperators in spatial PD along the cost-benefet ratio",
      xlab="C-B-ratio", ylab="Frequency of Coop.")
 lines(data$r, data$expr)
 #legend(0.55, 1,c("Frequency", "Expected Frequency"), bty="n", col=c("red", "black"), pch=c(18,20) )
+ggplot(data, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")

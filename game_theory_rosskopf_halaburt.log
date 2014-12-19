@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  17 DEC 2014 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  19 DEC 2014 01:47
 entering extended mode
 **game_theory_rosskopf_halaburt.tex
 (C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.tex
@@ -499,6 +499,9 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 
 LaTeX Warning: Label `fig:PDspatialcluster' multiply defined.
 
+
+LaTeX Warning: Label `fig:PDspatialcluster' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
@@ -584,7 +587,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -592,7 +598,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -600,69 +606,60 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ˜ in font cmr10!
-
-<PDspatial8cost01.png, id=5, 301.125pt x 301.125pt>
-File: PDspatial8cost01.png Graphic file (type png)
- <use PDspatial8cost01.png>
-Package pdftex.def Info: PDspatial8cost01.png used on input line 147.
-(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<PDspatial.pdf, id=7, 597.23125pt x 420.57124pt>
-File: PDspatial.pdf Graphic file (type pdf)
- <use PDspatial.pdf>
-Package pdftex.def Info: PDspatial.pdf used on input line 156.
-(pdftex.def)             Requested size: 241.51685pt x 170.07372pt.
- [1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+<PDspatial8cost01.png, id=31, 301.125pt x 301.125pt>
+File: PDspatial8cost01.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use PDspatial8cost01.png>
+Package pdftex.def Info: PDspatial8cost01.png used on input line 142.
+(pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
 
-<HDspatial8cost01.png, id=35, 301.125pt x 301.125pt>
+<spatialPDratio.pdf, id=33, 420.57124pt x 298.11375pt>
+File: spatialPDratio.pdf Graphic file (type pdf)
+
+<use spatialPDratio.pdf>
+Package pdftex.def Info: spatialPDratio.pdf used on input line 151.
+(pdftex.def)             Requested size: 241.51685pt x 171.19572pt.
+ <HDspatial8cost01.png, id=36, 301.125pt x 301.125pt>
 File: HDspatial8cost01.png Graphic file (type png)
 
 <use HDspatial8cost01.png>
-Package pdftex.def Info: HDspatial8cost01.png used on input line 207.
+Package pdftex.def Info: HDspatial8cost01.png used on input line 209.
 (pdftex.def)             Requested size: 176.11067pt x 176.11835pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
  [2 <C:/Users/Elena/Documents/GitHub/egt/PDspatial8cost01.png> <C:/Users/Elena/
-Documents/GitHub/egt/PDspatial.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDspat
-ial8cost01.png>]
-! Misplaced alignment tab character &.
-l.245 ...rguments about cluster formation (Nowak &
-                                                   May 1992; Killingback et ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Documents/GitHub/egt/spatialPDratio.pdf>]
+<task1prop.pdf, id=52, 420.57124pt x 298.11375pt>
+File: task1prop.pdf Graphic file (type pdf)
+ <use task1prop.pdf>
+Package pdftex.def Info: task1prop.pdf used on input line 226.
+(pdftex.def)             Requested size: 241.51685pt x 171.19572pt.
 
 
-Overfull \hbox (78.85886pt too wide) in paragraph at lines 247--248
-[]\OT1/cmr/m/n/10.95 (-20) http://www.math.pitt.edu/ bard/classes/mth3380/spati
-algame.pdf 
- []
+LaTeX Warning: Reference `PDn843' on page 3 undefined on input line 239.
 
-<HDm1.pdf, id=55, 597.23125pt x 420.57124pt>
+<HDm1.pdf, id=53, 597.23125pt x 420.57124pt>
 File: HDm1.pdf Graphic file (type pdf)
  <use HDm1.pdf>
 Package pdftex.def Info: HDm1.pdf used on input line 253.
 (pdftex.def)             Requested size: 201.26276pt x 141.7281pt.
 
-<HDn1.pdf, id=56, 597.23125pt x 420.57124pt>
+<HDn1.pdf, id=54, 597.23125pt x 420.57124pt>
 File: HDn1.pdf Graphic file (type pdf)
  <use HDn1.pdf>
 Package pdftex.def Info: HDn1.pdf used on input line 260.
 (pdftex.def)             Requested size: 201.26276pt x 141.7281pt.
 
-<HDm3.pdf, id=57, 597.23125pt x 420.57124pt>
+<HDm3.pdf, id=55, 597.23125pt x 420.57124pt>
 File: HDm3.pdf Graphic file (type pdf)
  <use HDm3.pdf>
 Package pdftex.def Info: HDm3.pdf used on input line 267.
@@ -671,8 +668,17 @@ Package pdftex.def Info: HDm3.pdf used on input line 267.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[3 <C:/Users/Elena/Documents/GitHub/egt/HDspatial8cost01.png> <C:/Users/Elena/D
+ocuments/GitHub/egt/task1prop.pdf>]
+Overfull \hbox (78.85886pt too wide) in paragraph at lines 347--348
+[]\OT1/cmr/m/n/10.95 (-20) http://www.math.pitt.edu/ bard/classes/mth3380/spati
+algame.pdf 
+ []
 
-LaTeX Warning: Citation `Albizu2013' undefined on input line 278.
+[4 <C:/Users/Elena/Documents/GitHub/egt/HDm1.pdf> <C:/Users/Elena/Documents/Git
+Hub/egt/HDn1.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDm3.pdf>]
+
+LaTeX Warning: Citation `Albizu2013' undefined on input line 370.
 
 (C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.bbl
 
@@ -681,17 +687,17 @@ LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
 
 ) 
 AED: lastpage setting LastPage
-[3 <C:/Users/Elena/Documents/GitHub/egt/HDm1.pdf> <C:/Users/Elena/Documents/Git
-Hub/egt/HDn1.pdf> <C:/Users/Elena/Documents/GitHub/egt/HDm3.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+[5
 
-(C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+ (C:\Users\Elena\Documents\GitHub\egt\game_theory_rosskopf_halaburt.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `game_theory_rosskopf_halaburt.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: FE6952C6DE58F9191E3B8D39FECC102B;43.
 
 
 LaTeX Warning: There were undefined references.
@@ -699,34 +705,32 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 11421 strings out of 493921
- 180768 string characters out of 3144875
- 349764 words of memory out of 3000000
- 14444 multiletter control sequences out of 15000+200000
- 24687 words of font info for 102 fonts, out of 3000000 for 9000
+ 11436 strings out of 493921
+ 180893 string characters out of 3144875
+ 350858 words of memory out of 3000000
+ 14447 multiletter control sequences out of 15000+200000
+ 24264 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,14n,47p,743b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,47p,769b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-helvetic/uhvro8a.pfb>
-Output written on game_theory_rosskopf_halaburt.pdf (3 pages, 185930 bytes).
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
+rw/helvetic/uhvro8a.pfb>
+Output written on game_theory_rosskopf_halaburt.pdf (5 pages, 197423 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 25631 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 23084 words of extra memory for PDF output out of 24883 (max. 10000000)
 

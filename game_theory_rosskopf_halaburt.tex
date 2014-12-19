@@ -100,21 +100,14 @@ coop normally not persisting in PD, but in SD at moderate frequency
 what is cooperation, defection in nature/ecology? 
 
 
-\begin{align}
-A = 
-\begin{bmatrix}
-A_{11} & A_{21} \\
-A_{21} & A_{22}
-\end{bmatrix}
-\end{align}
-
 Looking at evolutionary game structures, the pay-off is crucial to determine each players fitness and the fitness of a whole group. 
 
 Spatial structure added to the game results in a population, where its individuals occupy patches on a spatial lattice (here two dimensional). 
 Each tick (update) will be done by letting individuals play against their nearest neighbours. The resulting pay-offs will be used to decide upon the focal patch's future occupant. It could be an offspring of the last occupant resisting the invasion or from a neighbour spreading its strategy. The lattice is updated and the evolutionary process takes place with every update.
 
+\section{Methods}
 
-%------------------------------------------------
+
 
 \subsection*{Prisoners Dilemma}
 
@@ -140,12 +133,14 @@ Payoff to D & $b$ & $0$ \\
 Spatial PD: 
 Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Cooperators stay on forming large compact clusters thus reducing the exploitation by defectors as one can see in figure \ref{fig:PDspatialcluster}. In this case the cooperators are not close to the threshold of extinction and survive in big clusters. 
 
+The big difference to non-spatial PD is, that cooperation can evolve as a stable proportion in the population, which would be not possible without the spatial component in the behaviour. 
+
 \begin{figure}[here]
 \centering
 \begin{minipage}{.35\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{PDspatial8cost01}
- \caption{Clustering}
+ \caption{Clustering of cooperators in spatial PD with b=1, c=0.1, N=8, blue=C, red=D}
 \label{fig:PDspatialcluster}
 \end{minipage}%
 \end{figure}
@@ -153,7 +148,7 @@ Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Coop
 \begin{figure}
 \begin{minipage}{.48\textwidth}
   \centering
-  \includegraphics[width=1\linewidth]{PDspatial}
+  \includegraphics[width=1\linewidth]{spatialPDratio}
  \caption{Frequency of cooperators against c-b-ratio}
   \label{fig:PDspatialfreq}
 \end{minipage}
@@ -163,8 +158,8 @@ Spatial structure in Prisoners Dilemma is a potent promoter of cooperation. Coop
 \subsection*{Snowdrift game}
 
 In general: \\
-At the snowdrift game we have the difference to Prisoners Dilemma. The players can share the benefit and the cost, depending on their strategies. Another feature in this game is, that if one defects, the pay-off could be less than the sucker's pay-off of the unilateral cooperator. Still defecting if the other player cooperates is, according to the matrix, the best response choice. As one can see in table \ref{table2}, the pay-off matrix is slightly different than the one of Prisoners Dilemma in table \ref{table1}. 
-If $2b > c > b > 0$, meaning that if costs are high, these pay-off structures change the game to a PD and affect the reverse pay-off structure. If $b > c > 0$ , the best action depends on co-players action resulting in a mixed strategy population, where rare strategies can invade, either defector or cooperator with an ESS at cooperator proportion is $1- c/(2b-c)$. 
+At the snowdrift game we have the difference to Prisoners Dilemma. The players can share the benefit and the cost, depending on their strategies. Another feature in this game is, that if one defects, the pay-off could be less than the sucker's pay-off of the unilateral cooperator. Still defecting if the other player cooperates is, according to the matrix, the best response choice. The other way round, if the opponent defects, it is still better to cooperate than to defect aswell. This leads to the maintenance of cooperation to a certain extent in the population as an ESS. As one can see in table \ref{table2}, the pay-off matrix is slightly different than the one of Prisoners Dilemma in table \ref{table1}. 
+If $2b > c > b > 0$, meaning that if costs are high, these pay-off structures change the game to a PD and affect the reverse pay-off structure. If $b > c > 0$ , the best action depends on co-players action resulting in a mixed strategy population, where rare strategies can invade, either defector or cooperator with an ESS at cooperator proportion is $1- c/(2b-c)$. Here it gets important to investigate when the cooperation in the ESS is increased or decreased.
 
 
 \begin{table}[h]
@@ -191,13 +186,20 @@ Spatial HD ideas:
 	Next tick: present occupant + nearest neighbours compete to populate this site with their offspring
 	Competitive success: depends on differences between payoffs that each pot. Parent obtains from game interactions with nearest neighbors
 	Next tick/update done synchronously, pop. With descrete, non-overlapping generation
-	Or asynchron with overlapping generations 
-	Spatial structure fails to enhance coop
- 	And reduces proportion of coop in spatial pop. 
+	-Spatial structure fails to enhance coop
+ 	-And reduces proportion of coop in spatial pop.
+ 	Cooperation is lower in structured population than in well-mixed populations. (difference to PD) 
+for moderate c-b-ratios: spatial structure results in less cooperators than in well-mixed non spatial SD  
 Small ratio: high benefits, low cost: proportion of coop higher than $1-r$ expected in well-mixed pop.
 Large ratio: defectors, depend on lattice geometry: the higher the neighbors the heigher the D
 Sufficiently high r: coop is lost 
 Coop vanish near r where $ 1/N > 1- r$
+
+clusters small because of the different pay off matrix
+develop  strategy contrary to the neighbour ones 
+isolated coop: branchy structures possible but never large cluster 
+defector: has advantage, can exploit coop , even more for high c-b-ratios
+= spatial structuring is not always advantageous for cooperation
 
 
 \begin{figure}[here]
@@ -213,38 +215,36 @@ Coop vanish near r where $ 1/N > 1- r$
 
 \section*{task 1 the experiments}
 
+First we conducted two experiments to check the validity of our implementation.
+The first one runs 50 experiments with benefit 1 and cost 1.5. According to the paper of Hauert and Doebli (cite) this should result in a fast domination of defectors. The second experiment used benefit 1 and cost .75. This results in a stable distribution of defectors and cooperators. Both results could be achieved. It was important to check the plausibility of the experiment, especially to gain certainty that the equilibrium is stable and the variation will not change again. The verification, when to stop the calculations and repetitions was done via statistical testing (for detailed information see appendix).
+The second experiment can be visualized in further figures, with a stable average of 24,7\% cooperators in the population as an ESS. 
 
-\begin{description}
-\item[First] explanation of spatial modelling structure
-\item[Last] explanation of experiments
-\end{description}
+\begin{figure}[here]
+\centering
+\begin{minipage}{.48\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{task1prop}
+ \caption{Proportion of cooperators in the population after 10000 steps}
+\label{fig:PDspatialcluster}
+\end{minipage}%
+\end{figure}
+%-------------
+
 
 \section*{task 2 the neighbourhood problem}
 
 We choose 3 different types of neighbourhoods to be experimented on. The first one is the Moore neighbourhood with the default value of N=8 neighbours. The neighbours surround the focal patch in 8 directions. The second neighbourhood is the Von Neumann neighbourhood with the default value of N=4 neighbours which are orthogonally surrounding the focal patch on a two dimensional square lattice. The last type of neighbourhood introduces a parameter instead of a defined neighbourhood, having the attribute of a radius equal or less than 3 patches. \\
 To increase the certainty of our results, the behaviour space model is used to compare different cooperation frequencies against the ratio of cost and benefit within different neighbourhood features and between the snowdrift game and the prisoners dilemma game. \\
 The mutual cooperation ratio in the snowdrift game is calculated as $r = c / (2b-c)$ , cost to benefit ratio. The mutual cooperation ratio in the Prisoner's Dilemma is calculated as $r = c/ (b-c) $.\
+If one applies the Hamilton's rule to spatial PD with differing neighbours, the general assumption of $r = c / (b-c) $ must be improved with the rule that cooperators can invade if $ b - n * c > 0$ and if $ r = 1/N $. In the experiment of the neighbourhood structure of V.Neumann with 4 neighbours, it would mean, that the ratio needs to be higher than 0.2 ( $b > 4c$, $ r = c/(b-c) < 0.2$) what you can see in the plots of figure \ref{PDn843}. 
 
-\section*{task 3}
+With the different neighbourhood interactions in this experiment, the cooperator proportion is always rather small. The probability that the neighbours are related to the invading cooperator is small, the neighbours tend to be defectors. 
 
+The different neighbourhood experiments verify the Hamilton's rule, as the threshold of an ESS favouring cooperators corresponds roughly to the calculations given above. It is thus possible to change the defecting ESS by adding a spatial structure to the PD. 
 
-
-\section*{discussion}
-
-maybe discuss difference to the hauert paper? 
-differ our results with their results? 
-
-where can we give in more time, where are options to prolong this topic? relation to nature, where is the importance here ? 
-
-Discussion: 
-Paper: http://iopscience.iop.org/0253-6102/57/4/04
-Not included the noise, like in this paper  - could it make even more realistic but heavier to implement
-Our study more straighforward to understand the snowdrift game and the players evolution better
-Afterwards you could add those noise to our model to make it more exact
-
-"Some analytical results have been obtained using geometrical arguments about cluster formation (Nowak & May 1992; Killingback et al. 1999; Hauert 2001), and Schweitzer et al. (2002) recently gave a classification of the dynamic regimes in the spatial PD."
-
-http://www.math.pitt.edu/~bard/classes/mth3380/spatialgame.pdf
+HD: 
+for moderate c-b-ratios: spatial structure results in less cooperators than in well-mixed non spatial SD --> those results remain stable at any neighbourhood experiments 
+very contrary effect on cooperation
 
 \begin{figure}[here]
 \centering
@@ -269,6 +269,98 @@ http://www.math.pitt.edu/~bard/classes/mth3380/spatialgame.pdf
 \label{fig:HDm3}
 \end{minipage}%
 \end{figure}
+
+\section*{task 3 the mixed strategy}
+
+
+
+\subsection*{The Algebra of the Nash Equilibrium}
+
+The simulation for the third task ended in a Nash Equilibrium
+for the snow drift game. In order to verify the result of our
+simulation we will derive the probability for the mixed strategy
+for the ``defector player''.
+
+
+The payoff matrix for the snowdrift game is calculated as follows:
+
+\begin{tabular}{l|ll}
+  & Left & Right \\
+\midrule
+Up & $b-(c/2)$ & $b-c$ \\
+Down & $b$ & $0$ \\
+\end{tabular}
+
+We simulated the game for benefit $b=1$ and cost $c=0.75$.
+So the actual payoff matrix is:
+
+\begin{tabular}{l|ll}
+  & Left & Right \\
+\midrule
+Up & $0.625$ & $0.25$ \\
+Down & $1$ & $0$ \\
+\end{tabular}
+
+Let $\sigma$ be the probability for the mixed strategy
+to play $C$ and let $U_x$ be the utility function for the
+player when playing strategy ``Left'' ($L$) or ``Right'' ($R$)
+respectively.
+
+We get the equation system:
+\begin{align*}
+  U_L &= U_R\\
+  U_L &= f(\sigma)\\
+  U_R &= f(\sigma)
+\end{align*}
+
+We can further define (this is just the probability
+of the strategy multiplied with the payoff, for both
+strategies):
+\begin{align*}
+  U_L &= 0.625\sigma + 1 \cdot (1-\sigma)\\
+  U_R &= 0.25\sigma + 0 \cdot (1-\sigma)
+\end{align*}
+
+Set the two equations for $U_L = U_R$, we get:
+\begin{align*}
+0.625\sigma + (1-\sigma) =  0.25\sigma
+\end{align*}
+
+The resulting $\sigma$ is $0.60$. 
+
+
+\section*{discussion}
+
+maybe discuss difference to the hauert paper? 
+differ our results with their results? 
+
+where can we give in more time, where are options to prolong this topic? relation to nature, where is the importance here ? 
+
+Discussion: 
+Paper: http://iopscience.iop.org/0253-6102/57/4/04
+Not included the noise, like in this paper  - could it make even more realistic but heavier to implement
+Our study more straighforward to understand the snowdrift game and the players evolution better
+Afterwards you could add those noise to our model to make it more exact
+
+"Some analytical results have been obtained using geometrical arguments about cluster formation (Nowak \& May 1992; Killingback et al. 1999; Hauert 2001), and Schweitzer et al. (2002) recently gave a classification of the dynamic regimes in the spatial PD."
+
+http://www.math.pitt.edu/~bard/classes/mth3380/spatialgame.pdf
+
+continuous spatial SD - change of function of cost and benefit ( investment) leading somehow to the tragedy of commune as contrast to tragedy of commons 
+
+tragedy of commons in PD: cooperation will be advantageous only for others, elimination of altruism 
+tragedy of commune in SD: coop system, all individuals contribute to group benefit, but option to asymmetric stable state where some invest a lot and others less or nothing: stichwort fairness, diversification
+
+PD and SD both social dilemma
+PD spatial assortment crucial for coop, where defectors dominant
+SD spatial assortment irrelevant, coop can invade if rare
+
+all experiments are very theoretically and neglecting a lot of ecological dynamics and parameters which are important for evolution in reality
+missing input of empirical studies, raw data
+
+
+
+
 %------------------------------------------------
 
 
