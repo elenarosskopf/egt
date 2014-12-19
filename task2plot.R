@@ -1,5 +1,5 @@
 
-data = read.csv("tasktable.csv",skip=6, header = T)
+data = read.csv("testtask2table.csv",skip=6, header = T)
 t(data)
 data = as.data.frame(data, header = T)
 
@@ -50,13 +50,13 @@ aggdata1 <-aggregate(datamoore1, by=list(datamoore1$r), FUN=mean, na.rm=TRUE)
 aggdata2 <-aggregate(datamoore3, by=list(datamoore3$r), FUN=mean, na.rm=TRUE)
 aggdata3 <-aggregate(dataneumann, by=list(dataneumann$r), FUN=mean, na.rm=TRUE)
 
-#plot(aggdata1$r, aggdata1$freq_c, las=1,pch=18,xlab="C-B-ratio", xlim=c(0,1),ylab="frequency of coop") #PDm1
+plot(aggdata1$r, aggdata1$freq_c, las=1,pch=18,xlab="C-B-ratio",ylab="frequency of coop") #PDm1
 #plot(aggdata3$r, aggdata3$freq_c,las=1, pch=18, xlab="C-B-ratio",  xlim=c(0,1),ylab="frequency of coop" ) #PDn1
 #plot(aggdata2$r, aggdata2$freq_c,las=1, pch=18, xlab="C-B-ratio",  xlim=c(0,1),ylab="frequency of coop" ) #PDm3
 
-ggplot(aggdata1HD, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
-ggplot(aggdata3HD, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
-ggplot(aggdata2HD, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
+ggplot(aggdata1, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
+ggplot(aggdata3, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
+ggplot(aggdata2, aes(x = r, y=freq_c))+ geom_point() + labs(colour=NULL) + xlim(0,1)+ xlab("C-B-ratio") + ylab("Proportion of Cooperators")
 
 par(mfrow=c(1,1))
 mtext(" Frequency of Cooperators against c-b-ratio", side = 3, line=-2,outer=T )
