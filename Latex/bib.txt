@@ -1,0 +1,43 @@
+﻿@article{Doebeli.52005,
+ author = {Doebeli, M. and Hauert, C.},
+ year = {2005},
+ title = {Models of cooperation based on the Prisoner's Dilemma and the Snowdrift game},
+ journal = {Ecology Letters},
+ number = {7}
+}
+@article{hauert2004spatial,
+  title={Spatial structure often inhibits the evolution of cooperation in the snowdrift game},
+  author={Hauert, C. and Doebeli, M.},
+  journal={Nature},
+  volume={428},
+  number={6983},
+  pages={643--646},
+  year={2004},
+  publisher={Nature Publishing Group}
+}
+
+@article{Hamilton.1964b,
+ author = {Hamilton, W. D.},
+ year = {1964},
+ title = {The genetical evolution of social behaviour. II},
+ journal = {Journal of Theoretical Biology},
+ url = {http://www.sciencedirect.com/science/article/pii/0022519364900396},
+ pages = {17--52},
+ volume = {7},
+ number = {1},
+ issn = {0022-5193},
+ doi = {10.1016/0022-5193(64)90039-6}
+}
+
+@article{Hamilton.1964,
+ author = {Hamilton, W. D.},
+ year = {1964},
+ title = {The genetical evolution of social behaviour. I},
+ journal = {Journal of Theoretical Biology},
+ url = {http://www.sciencedirect.com/science/article/pii/0022519364900384},
+ pages = {1--16},
+ volume = {7},
+ number = {1},
+ issn = {0022-5193},
+ doi = {10.1016/0022-5193(64)90038-4}
+}
