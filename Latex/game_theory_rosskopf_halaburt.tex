@@ -212,7 +212,19 @@ The second experiment can be visualized in further figures, with a stable averag
 
 \section*{The neighbourhood problem}
 
-We choose 3 different types of neighbourhoods to be experimented on. The first one is the Moore neighbourhood with the default value of N=8 neighbours. The neighbours surround the focal patch in 8 directions. The second neighbourhood is the Von Neumann neighbourhood with the default value of N=4 neighbours which are orthogonally surrounding the focal patch on a two dimensional square lattice. The last type of neighbourhood introduces a parameter instead of a defined neighbourhood, having the attribute of a radius equal or less than 3 patches surrounding the focal patch. \\
+We choose 3 different types of neighbourhoods to be experimented on. The first one is the Moore neighbourhood with the default value of N=8 neighbours. The neighbours surround the focal patch in 8 directions. The second neighbourhood is the Von Neumann neighbourhood with the default value of N=4 neighbours which are orthogonally surrounding the focal patch on the two dimensional square lattice. The last type of neighbourhood introduces a parameter instead of a defined neighbourhood, having the attribute of a radius equal or less than 3 patches surrounding the focal patch having up to 24 neighbours around the focal patch in the order of the Moore neighbourhood. \\
+
+\begin{figure}[here]
+\centering
+\begin{minipage}{.48\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{neighbors}
+ \caption{Spatial structure of the different neighbourhoods}
+\label{fig:histo}
+\end{minipage}%
+\end{figure}
+
+
 To increase the certainty of our results, the behaviour space model is used to compare different cooperation frequencies against the ratio of cost and benefit within different neighbourhood features and between the snowdrift game and the prisoners dilemma game. \\
 The mutual cooperation ratio in the snowdrift game is calculated as $r = c / (2b-c)$ , cost to benefit ratio. The mutual cooperation ratio in the Prisoner's Dilemma is calculated as $r = c/ (b-c) $.\
 If one applies the Hamilton's rule to spatial PD with differing neighbours, the general assumption of $r = c / (b-c) $ must be improved with the rule that cooperators can invade if $ b - n * c > 0$ and if $ r = 1/N $. In the experiment of the neighbourhood structure of Moore (cite) with 8 neighbours, it would mean, that the ratio needs to be higher than 0.125 ( $b > 8c$, $ r = c/(b-c) < 0.125$) what you can see in the plots of figure \ref{fig:PDspatialfreq}. 
@@ -252,7 +264,7 @@ The different neighbourhood experiments verify the Hamilton's rule (cite), as th
 %\end{figure}
 \end{figure}
 
-The spatial structure results of the snowdrift game concerning the c-b-ratio have very contrary effects on cooperation proportion compared to the spatial PD experiments. With increasing neighbours, the proportion of cooperators is decreasing faster than expected. The expected frequency 1-r is roughly consistent with the last neighbourhood experiment of having radius=3 in figure \ref{fig:HDm3}.  \\
+The spatial structure results of the snowdrift game concerning the c-b-ratio have very contrary effects on cooperation proportion compared to the spatial PD experiments. With increasing neighbours, the proportion of cooperators is decreasing faster than expected. The expected frequency 1-r is roughly consistent with the last neighbourhood experiment of having 24 neighbours surrounding the site in figure \ref{fig:HDm3}.  \\
 
 \section*{The mixed strategy}
 
@@ -361,18 +373,17 @@ missing input of empirical studies, raw data
 
 \section*{Appendix A- the neighbourhood differences along the spatial PD with increasing c-b-ratio}
 
-In case of completion, here are the different verifications for the Hamilton's rule for the spatial PD. The calculations from the neighbourhood section were visualized and depicted in the next three figures. The thresholds for the respective number of neighbours are calculated and consist roughly with the modelled behaviour. The more neighbours are included as possible competitors the higher the costs can be in the game. 
+In case of completion, here are the different verifications for the Hamilton's rule for the spatial PD. The calculations from the neighbourhood section were visualized and depicted in the next three figures. The thresholds for the respective number of neighbours are calculated and consist roughly with the modelled behaviour. The more neighbours are included as possible competitors the higher the costs can be in the game. The delay in extinction of cooperators from four to eight neighbours is remarkably high, the next step from eight to 24 neighbours, however, is only slightly visible, leading to the question what else is influencing the frequency of cooperators despite the cost-benefit ratio. It is important to notice that the bigger the neighbourhood, the more cooperators are forming clusters to protect cooperation from exploitation from defectors. Cooperators have a higher pay-off in the cooperation cluster than defectors, so the clusters remain in moderate-size neighbourhoods. 
 
-\begin{tabular}{l|ll}
+\begin{figure}[here]
 \centering
-Neighbours & C-B-r threshold\\
-\midrule
-8 & $0.125$  \\
-4 & $0.25$  \\
-radius 3 & $ 0.125$ \\
-\end{tabular}
-
-
+\begin{minipage}{.35\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{PDN4}
+ \caption{N=4}
+\label{fig:PDn1}
+\end{minipage}%
+\end{figure}
 
 \begin{figure}[here]
 \centering
@@ -384,15 +395,6 @@ radius 3 & $ 0.125$ \\
 \end{minipage}%
 \end{figure}
 
-\begin{figure}[here]
-\centering
-\begin{minipage}{.35\textwidth}
-  \centering
-  \includegraphics[width=1\linewidth]{PDN4}
- \caption{N=4}
-\label{fig:PDn1}
-\end{minipage}%
-\end{figure}
 
 \begin{figure}[here]
 \centering

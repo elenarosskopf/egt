@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  20 DEC 2014 17:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.15)  21 DEC 2014 14:40
 entering extended mode
 **game_theory_rosskopf_halaburt.tex
 (C:\Users\Elena\Documents\GitHub\egt\Latex\game_theory_rosskopf_halaburt.tex
@@ -502,6 +502,9 @@ LaTeX Warning: Label `fig:PDspatialcluster' multiply defined.
 
 LaTeX Warning: Label `fig:PDspatialcluster' multiply defined.
 
+
+LaTeX Warning: Label `fig:histo' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
@@ -676,121 +679,145 @@ Package pdftex.def Info: task1numberofexstep.pdf used on input line 206.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \hbox (badness 1117) in paragraph at lines 215--216
+\OT1/cmr/m/n/10.95 (+20) neigh-bour-hood with the de-fault value of N=8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+<neighbors.jpg, id=49, 659.46375pt x 286.06876pt>
+File: neighbors.jpg Graphic file (type jpg)
+ <use neighbors.jpg>
+Package pdftex.def Info: neighbors.jpg used on input line 221.
+(pdftex.def)             Requested size: 241.51685pt x 104.76561pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [3 <C:/Users/Elena/Documents/GitHub/egt/Latex/HDspatial06neu.jpeg> <C:/Users/El
 ena/Documents/GitHub/egt/Latex/task1prop.pdf> <C:/Users/Elena/Documents/GitHub/
 egt/Latex/task1numberofexstep.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-<HDN8.pdf, id=73, 216.81pt x 216.81pt>
+<HDN8.pdf, id=74, 216.81pt x 216.81pt>
 File: HDN8.pdf Graphic file (type pdf)
  <use HDN8.pdf>
-Package pdftex.def Info: HDN8.pdf used on input line 228.
+Package pdftex.def Info: HDN8.pdf used on input line 240.
 (pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
-<HDN4.pdf, id=74, 216.81pt x 216.81pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<HDN4.pdf, id=75, 216.81pt x 216.81pt>
 File: HDN4.pdf Graphic file (type pdf)
  <use HDN4.pdf>
-Package pdftex.def Info: HDN4.pdf used on input line 238.
+Package pdftex.def Info: HDN4.pdf used on input line 250.
 (pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<HDN3.pdf, id=75, 216.81pt x 216.81pt>
+<HDN3.pdf, id=76, 216.81pt x 216.81pt>
 File: HDN3.pdf Graphic file (type pdf)
  <use HDN3.pdf>
-Package pdftex.def Info: HDN3.pdf used on input line 248.
+Package pdftex.def Info: HDN3.pdf used on input line 260.
 (pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 259--260
+Underfull \hbox (badness 1242) in paragraph at lines 271--272
 \OT1/cmr/m/n/10.95 (+20) After check-ing dif-fer-ent op-tions in the spa-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
 
-Underfull \vbox (badness 3019) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-[4 <C:/Users/Elena/Documents/GitHub/egt/Latex/HDN8.pdf> <C:/Users/Elena/Documen
-ts/GitHub/egt/Latex/HDN4.pdf> <C:/Users/Elena/Documents/GitHub/egt/Latex/HDN3.p
-df>]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[4 <C:/Users/Elena/Documents/GitHub/egt/Latex/neighbors.jpg> <C:/Users/Elena/Do
+cuments/GitHub/egt/Latex/HDN8.pdf> <C:/Users/Elena/Documents/GitHub/egt/Latex/H
+DN4.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
 
-Overfull \hbox (137.34003pt too wide) in paragraph at lines 317--323
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Overfull \hbox (137.34003pt too wide) in paragraph at lines 329--335
 [][] 
  []
 
-<task3.pdf, id=102, 420.57124pt x 298.11375pt>
+<task3.pdf, id=99, 420.57124pt x 298.11375pt>
 File: task3.pdf Graphic file (type pdf)
  <use task3.pdf>
-Package pdftex.def Info: task3.pdf used on input line 328.
+Package pdftex.def Info: task3.pdf used on input line 340.
 (pdftex.def)             Requested size: 246.58229pt x 174.78476pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (78.85886pt too wide) in paragraph at lines 348--349
+Overfull \hbox (78.85886pt too wide) in paragraph at lines 360--361
 []\OT1/cmr/m/n/10.95 (-20) http://www.math.pitt.edu/ bard/classes/mth3380/spati
 algame.pdf 
  []
 
-[5 <C:/Users/Elena/Documents/GitHub/egt/Latex/task3.pdf>]
-<PDN8.pdf, id=117, 216.81pt x 216.81pt>
+[5 <C:/Users/Elena/Documents/GitHub/egt/Latex/HDN3.pdf> <C:/Users/Elena/Documen
+ts/GitHub/egt/Latex/task3.pdf>] <PDN4.pdf, id=118, 216.81pt x 216.81pt>
+File: PDN4.pdf Graphic file (type pdf)
+
+<use PDN4.pdf>
+Package pdftex.def Info: PDN4.pdf used on input line 382.
+(pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
+ <PDN8.pdf, id=119, 216.81pt x 216.81pt>
 File: PDN8.pdf Graphic file (type pdf)
  <use PDN8.pdf>
-Package pdftex.def Info: PDN8.pdf used on input line 381.
+Package pdftex.def Info: PDN8.pdf used on input line 392.
 (pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
-<PDN4.pdf, id=118, 216.81pt x 216.81pt>
-File: PDN4.pdf Graphic file (type pdf)
- <use PDN4.pdf>
-Package pdftex.def Info: PDN4.pdf used on input line 391.
-(pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
-<PDN3.pdf, id=119, 216.81pt x 216.81pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<PDN3.pdf, id=120, 216.81pt x 216.81pt>
 File: PDN3.pdf Graphic file (type pdf)
  <use PDN3.pdf>
-Package pdftex.def Info: PDN3.pdf used on input line 401.
+Package pdftex.def Info: PDN3.pdf used on input line 403.
 (pdftex.def)             Requested size: 176.11067pt x 176.11798pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
+[6 <C:/Users/Elena/Documents/GitHub/egt/Latex/PDN4.pdf> <C:/Users/Elena/Documen
+ts/GitHub/egt/Latex/PDN8.pdf> <C:/Users/Elena/Documents/GitHub/egt/Latex/PDN3.p
+df>]
 
-LaTeX Warning: Citation `Albizu2013' undefined on input line 423.
+LaTeX Warning: Citation `Albizu2013' undefined on input line 425.
 
 (C:\Users\Elena\Documents\GitHub\egt\Latex\game_theory_rosskopf_halaburt.bbl
 
@@ -799,15 +826,15 @@ LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
 
 ) 
 AED: lastpage setting LastPage
-[6 <C:/Users/Elena/Documents/GitHub/egt/Latex/PDN8.pdf> <C:/Users/Elena/Documen
-ts/GitHub/egt/Latex/PDN4.pdf> <C:/Users/Elena/Documents/GitHub/egt/Latex/PDN3.p
-df>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 432.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 432.
+[7
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
 
 (C:\Users\Elena\Documents\GitHub\egt\Latex\game_theory_rosskopf_halaburt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 432.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 432.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
 Package rerunfilecheck Info: File `game_theory_rosskopf_halaburt.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -818,14 +845,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 432.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 434.
  ) 
 Here is how much of TeX's memory you used:
- 11481 strings out of 493921
- 181571 string characters out of 3144875
- 352219 words of memory out of 3000000
- 14470 multiletter control sequences out of 15000+200000
- 24474 words of font info for 107 fonts, out of 3000000 for 9000
+ 11488 strings out of 493921
+ 181676 string characters out of 3144875
+ 350213 words of memory out of 3000000
+ 14474 multiletter control sequences out of 15000+200000
+ 24417 words of font info for 107 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,12n,47p,1252b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -841,9 +868,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
 9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/helvetic/uhvro8a.pfb>
-Output written on game_theory_rosskopf_halaburt.pdf (6 pages, 563335 bytes).
+Output written on game_theory_rosskopf_halaburt.pdf (7 pages, 591115 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 23101 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 23106 words of extra memory for PDF output out of 24883 (max. 10000000)
 
